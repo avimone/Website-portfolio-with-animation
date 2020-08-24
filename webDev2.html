@@ -1,0 +1,49 @@
+<html class="animated fadeIn">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet" type="text/css" href="css/Animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="logo animated swing">
+                <a  href="https://www.gadgetspidy.com"target="_blank" style="text-decoration: none;">
+                <img src="img/gadgetspidy-logo-new.png"> </a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="application.html">Applications*</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contectme.html">Contact Us</a></li>
+                <li><a href="aboutme.html">About Us</a></li>
+            </ul>
+            <div>
+            <marquee style="color: chartreuse;" behaviour="slide">this is fully functional website with connected database with php if database is not connected the data will be not saved</marquee>
+        </div>
+        </div>
+        <div class="wrapper">
+            <h1>Registration Form</h1>
+            <form action="insert.php"target="_blank" method="POST">
+                <input type="text" name="fname" id="fn1" maxlength="10" title="enter your first name" placeholder="enter your first name" required/>
+                <input type="text"   name="lname" id="fn1" maxlength="10" title="enter your last name" placeholder="enter your last name"/>
+                <input type="email" placeholder="eMAIL" name="email">
+                
+                <input type="number"name="phone" placeholder="NUMBER">
+                <select name="Course" type="text">
+                    <option value="0" selected="selected" disabled="disabled">AI</option>
+                    <option value="1">Web Development</option>
+                    <option value="2">Machine Learning</option>
+                    <option value="3">AI</option>
+                    <option value="4">Android Devlopment</option>
+                    <option value="5">Block Chain</option>
+                    </select>
+                <input type="submit" placeholder="submit" value="Save My Data">
+            </form>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/aviraj-patel-a19526125/"target="_blank" style="text-decoration: none;"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div id="overlay-area"></div>
+    </body>
+</html>

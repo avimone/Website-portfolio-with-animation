@@ -1,0 +1,55 @@
+<html class="animated fadeIn">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/cv.css">
+    <link rel="stylesheet" type="text/css" href="css/Animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollpath"></div>
+<section>   
+    <div class="main headerr">
+        <div class="logo animated swing">
+            <a  href="https://www.gadgetspidy.com"target="_blank" style="text-decoration: none;">
+            <img src="img/gadgetspidy-logo-new.png"> </a>
+        </div>
+        <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="application.html">Applications*</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="contectme.html">Contact Us</a></li>
+            <li class="active"><a href="aboutme.html">About Us</a></li>
+        </ul>
+    </div>
+
+
+
+<section class="home">
+    <div class="container">
+        <div class="row full-screen">
+            <div class="home-content">
+                <div class="block">
+                    <h6>Hello, My Name is</h6>
+                    <h1>Aviraj Patel</h1>
+                    <h3>Android/web/game Developer</h3>
+                    <div class="cv-btn">
+                        <a href="https://drive.google.com/open?id=18CzctKmGpTgzeB1dyhOPAlXxHmu0zZdp"target="_blank" style="text-decoration: none;">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+</section> 
+
+<script type="text/javascript">
+    let progress = document.getElementById('progressbar');
+    let totalheight=document.body.scrollHeight-window.innerHeight;
+    window.onscroll=function(){
+    let progressHeight=(window.pageYOffset/totalheight)*100;
+    progress.style.height=progressHeight + "%";}</script>
+</body>
+
+</html>
